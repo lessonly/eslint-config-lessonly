@@ -1,0 +1,35 @@
+{
+  "name": "@lessonly/eslint-config",
+  "version": "0.0.1",
+  "description": "Lessonly's Javascript style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lessonly/eslint-config-lessonly.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Conlin Durbin <conlin@lessonly.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lessonly/eslint-config-lessonly/issues"
+  },
+  "homepage": "https://github.com/lessonly/eslint-config-lessonly#readme",
+  "peerDependencies": {
+    "eslint": ">= 5.9.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
