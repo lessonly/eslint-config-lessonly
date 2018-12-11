@@ -11,6 +11,13 @@ module.exports = {
     I18n: false,
     t: false,
     $: false,
+    NProgress: false,
+    lly: false,
+    moment: false,
+    $clamp: false,
+    pubsub: false,
+    stabilizeSVG: false,
+    $R: false,
   },
   rules: {
     'no-console': 0,
@@ -28,23 +35,26 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': 0,
     'no-eval': 0,
     curly: 0,
+    'class-methods-use-this': 'off',
     'react/sort-comp': 0,
     'react/prop-types': 0,
     'react/no-danger': 0,
     'react/no-children-prop': 0,
+    'react/no-string-refs': 'off',
     'react/prefer-stateless-function': [
       0,
       {
-        ignorePureComponents: true
-      }
+        ignorePureComponents: true,
+      },
     ],
     'react/jsx-filename-extension': [
       1,
       {
-        extensions: ['.js', '.jsx']
-      }
+        extensions: ['.js', '.jsx'],
+      },
     ],
     'import/extensions': 0,
+    'import/prefer-default-export': 'off',
     'import/no-unresolved': [
       2,
       {
