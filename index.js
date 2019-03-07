@@ -5,7 +5,7 @@ module.exports = {
     jest: true,
     browser: true,
   },
-  plugins: ['jest'],
+  plugins: ['jest', 'react-hooks'],
   globals: {
     _: false,
     I18n: false,
@@ -41,6 +41,8 @@ module.exports = {
     'react/no-danger': 0,
     'react/no-children-prop': 0,
     'react/no-string-refs': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
     'react/prefer-stateless-function': [
       0,
       {
